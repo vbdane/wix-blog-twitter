@@ -22,6 +22,6 @@ Flask based API to automatically tweet latest post on Wix Blog
 <h2>Deployment</h2>
 <h3>Hosting</h3>
 <p>While you can extract the logic from the script and manually run it everytime you post, that would defeat the entire point of this automation. The best way to make use of this flask based script is to host it on a server (preferably free) and call this API everytime a new blog post is posted. I used PythonAnywhere as it's simple and free.<br>
-<br>Refer <a href="https://medium.com/swlh/how-to-host-your-flask-app-on-pythonanywhere-for-free-df8486eb6a42">this article</a> as a guide to deploying it on PythonAnywhere.</p>
+Refer <a href="https://medium.com/swlh/how-to-host-your-flask-app-on-pythonanywhere-for-free-df8486eb6a42">this article</a> as a guide to deploying it on PythonAnywhere.<br>Do not forget to <a href="https://help.pythonanywhere.com/pages/InstallingNewModules">install the required packages</a> namely tweepy, feedparser, flask-restful (flask is pre-installed on PythonAnywhere)</p>
 <h3>API Call</h3>
 <p>If you've hosted your API on PythonAnywhere free account, this is how the API call should look like <strong><i>https://(your-pythonwnywhere-username).pythonanywhere.com/(project-name)/tweeter/(your-key)</i></strong>. I prefer having the API call URL as a simple internet shortcut on the devices which I can just click everytime I post.</p>
