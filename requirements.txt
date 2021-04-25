@@ -1,0 +1,4 @@
+tweepy
+feedparser
+flask
+flask-restful
